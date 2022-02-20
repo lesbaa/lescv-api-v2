@@ -1,0 +1,18 @@
+[Unit]
+Description=CV API
+
+[Service]
+Type=simple
+WorkingDirectory=/home/les/cv-api
+ExecStart=/home/les/cv-api/start.sh
+Restart=always
+User=les
+Group=les
+Environment=PATH=/usr/bin:/usr/local/bin:/bin
+Environment=NODE_ENV=production
+Environment=LES_ENV=live
+
+[Install]
+WantedBy=multi-user.target
+
+
