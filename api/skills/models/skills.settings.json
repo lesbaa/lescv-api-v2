@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "name": "skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skillId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "DEV",
+        "SOFT",
+        "NEXT"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "points": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "works": {
+      "via": "skills",
+      "collection": "work"
+    }
+  }
+}

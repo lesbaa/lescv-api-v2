@@ -1,0 +1,55 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/works",
+      "handler": "work.find",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/works/count",
+      "handler": "work.count",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/works/:id",
+      "handler": "work.findOne",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/works",
+      "handler": "work.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/works/:id",
+      "handler": "work.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/works/:id",
+      "handler": "work.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

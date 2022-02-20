@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "references",
+  "info": {
+    "name": "references"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "refId": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "currentPosition": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "text"
+    }
+  }
+}

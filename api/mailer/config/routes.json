@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/mailer/:id",
+      "handler": "mailer.send",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_palette_palettes",
+  "info": {
+    "name": "palette",
+    "icon": "pepper-hot"
+  },
+  "options": {},
+  "attributes": {
+    "gradient": {
+      "type": "string"
+    },
+    "offsetOpacity": {
+      "type": "decimal"
+    },
+    "colors": {
+      "type": "json"
+    }
+  }
+}

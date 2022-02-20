@@ -1,0 +1,55 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sketches",
+      "handler": "sketches.find",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sketches/count",
+      "handler": "sketches.count",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sketches/:id",
+      "handler": "sketches.findOne",
+      "config": {
+        "auth": false,
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sketches",
+      "handler": "sketches.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sketches/:id",
+      "handler": "sketches.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sketches/:id",
+      "handler": "sketches.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
