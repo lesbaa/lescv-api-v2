@@ -3,8 +3,8 @@ Description=CV API
 
 [Service]
 Type=simple
-WorkingDirectory=/home/les/cv-api
-ExecStart=/home/les/cv-api/start.sh
+WorkingDirectory=/home/les/lescv-api-v2
+ExecStart=/home/les/lescv-api-v2/start.sh
 Restart=always
 User=les
 Group=les
