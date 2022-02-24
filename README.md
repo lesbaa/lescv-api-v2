@@ -1,3 +1,3 @@
-# Strapi application
+# CV and personal site API
 
-A quick description of your strapi application
+API runs an ubuntu service using Strapi as a back-end and database interface.
